@@ -1,12 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <style>
+    .coal {
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      flex-direction: row;
+      background-image: url(city_lights.jpeg);
+    }
+    .selfie {
+      padding: 10px;
+      width: auto;
+      height: 400px;
+     
+    }
+    .photo {
+      padding: 10px;
+      flex: 1;
+    }
+    .my_name {
+      padding: 10px;
+      flex: 1;
+      margin: 200px;
+      padding-right: 30px;
+      color: aliceblue;
+    }
+    .coal1 {
+      padding: 10px;
+      display: flex;
+      margin: 10px;
+      margin-top: 10px;
+      margin-bottom: 100px;
+      align-items: center;
+    }
+    .city_photo_div {
+      padding: 10px;
+    }
+    .para_city_div {
+      padding: 50px;
+    }
+    .city_photo {
+      width: auto;
+      height: 400px;
+    }
+    .places {
+      display: flex;
+      padding: 20px;
+    }
+    .p1 {
+      flex: 1;
+      display: flex;
+    }
+    .p2 {
+      flex: 1;
+      display: flex;
+    }
+    .p3 {
+      flex: 1;
+      display: flex;
+    }
+    .p_img {
+      width: auto;
+      height: 200px;
+    }
+
+    p {
+      margin: 10px;
+      padding: 10px;
+    }
+
+    l_p {
+      float: left;
+    }
+
     
-</body>
+
+    table, td, th {
+      border: solid black;
+      border-collapse: collapse;
+      width: 50%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    body {
+      align-content: center;
+      background-color: antiquewhite;
+      
+    }
+
+
+    @media (max-width: 875px) {
+      .coal {
+        flex-direction: column;
+      }
+      .coal1 {
+        flex-direction: column;
+      }
+      .places {
+        flex-direction: column;
+      }
+      .p2 {
+        flex-direction: row-reverse;
+        
+    }
+      
+    }
+    
+  </style>
+
+ 
+
+  <body>
+    <div class="container">
+      <div class="coal">
+        <div class="sec1">
+          <div class="my_name">Mpho Nkadimeng</div>
+        </div>
+  
+        <div class="sec1">
+          <div class="photo">
+            <img class="selfie" src="img_self.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div><h3>City of Dwarka</h3></div>
+      <div class="coal1">
+        <div class="city_photo_div">
+          <img class="city_photo" src="ant.jpeg" alt="" />
+        </div>
+        <div class="para_city_div">
+          <p>
+            The modern city of Dwarka (meaning ‘Gateway to Heaven’ in Sanskrit) is located in the north-western Indian state of Gujarat. This city is regarded as one of the most prominent Chardham (the four sacred pilgrimage sites of Hinduism), and one of the seven most ancient religious sites in the country. According to Hindu mythology, Dvārakā was a city where Krishna, the eighth avatar of Vishnu, once lived.
+
+Dvārakā is purported to have been thoroughly planned. The city is said to have been divided into six sectors which contained residential and commercial areas, wide roads, plazas, palaces (700,000 that were made of gold, silver and precious stones), as well as numerous public facilities, including beautiful gardens and lakes. A hall called the sudharma sabha (‘Meeting of True Religion’) was the place where public meetings were held. As the city was surrounded by water, it was connected to the mainland via bridges and a port.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <dir class="container">
+      <div><h3>Foreign Language</h3></div>
+      <div class="coal2">
+      <div>
+        <p>
+          The origin of language can be a single proto-language that slowly evolved and was transported to different parts of the world. The similar words found in languages that look completely different can be supporting evidence. Regardless of the soundness of this theory, can words evolve drastically enough to look absolutely different from their origin?
+        </p>
+      </div>
+      
+      <div class="t">
+        <table>
+          <tr>
+            <th>Spoken Languages</th>
+            <th>Unspoken Langages</th>
+          </tr>
+          <tr>
+            <td>Farsi </td>
+            <td>Tamil</td>
+          </tr>
+          <tr>
+            <td>Aramaic</td>
+            <td>Greek</td>
+          </tr>
+          <tr>
+            <td>Hebrew</td>
+            <td>Korean</td>
+          </tr>
+          <tr>
+            <td> Basque</td>
+            <td>Lithuanian </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  </dir>
+  
+  <div class="container">
+    <div><h3>Foreign Language</h3></div>
+    <div class="places">
+      
+    <div class="p1"> <p>The lost city of Angkor was never really lost, just an understanding of how vast it once was. It was the largest pre-industrial city in the world, with an urban sprawl of around 1000 square kilometers (390 sq mi) centered around a complex of over 1000 temples ranging in size from small piles of bricks to the massive and imposing Angkor Wat.</p> 
+     
+      <div><h4>Angkor</h4><img class="p_img" src="angkor.jpeg" alt=""></div>
+    </div>
+
+    <div class="p2"> <p>This place’s name literally means “Lost City,” but it has had other names as well. The grave-robbing treasure hunters who found it in the 1970s called it “Green Hell” or “Wide Set,” and the locals (who naturally had known about it all along) called it Teyuna and believe it was the heart of a network of villages inhabited by their forebears.</p> 
+      <div><h4>La Ciudad Perdida</h6><img class="p_img l_p" src="machu.jpg" alt=""></div>
+    </div>
+
+    <div class="p3"><p>They call it the 8th wonder of the world. Perched on top of a near-inaccessible cliff in Sri Lanka, the ancient palace and fortress of Sigiriya is pretty cool.
+
+      The ancient Indian epic poem describes a place called Alakamandava (the City of the Gods) that was built 5000 years ago . It actually describes a lot of places, but some believe that this particular place is a reference to the incredible castle of Sigiriya on its 200 metre (650 foot) tall boulder.
+      
+      </p>
+      <div><h4>Sigiriya</h6><img class="p_img" src="sigiriya.jpeg" alt=""></div>
+    </div>
+  </div>
+  </div>
+
+  </body>
+ 
+  
+  
+  
 </html>
+
+
