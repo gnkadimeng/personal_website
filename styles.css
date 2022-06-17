@@ -6,7 +6,7 @@
       margin-top: 100px;
       margin-bottom: 100px;
       flex-direction: row;
-      background-image: url(city_lights.jpeg);
+      background-image: url(table2_mount.jpeg);
     }
     .selfie {
       padding: 10px;
@@ -24,6 +24,8 @@
       margin: 200px;
       padding-right: 30px;
       color: aliceblue;
+      font-family: "Sofia", sans-serif;
+      font-size: xx-large;
     }
     .coal1 {
       padding: 10px;
